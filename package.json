@@ -1,0 +1,24 @@
+{
+  "name": "design-pattern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/singleton-pattern/client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himanshur-rana/Design-pattern.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/himanshur-rana/Design-pattern/issues"
+  },
+  "homepage": "https://github.com/himanshur-rana/Design-pattern#readme",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
