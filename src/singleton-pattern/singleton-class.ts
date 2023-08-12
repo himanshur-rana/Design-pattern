@@ -1,7 +1,9 @@
 export class SingletonClass {
   private static singletonClassReference: SingletonClass;
-
-  private constructor() {}
+  private counter: number;
+  private constructor() {
+    this.counter = 0;
+  }
 
   public static getInstance() {
     if (!SingletonClass.singletonClassReference) {
@@ -11,6 +13,8 @@ export class SingletonClass {
   }
 
   public doSomeWork() {
+    console.log(this);
+    this.counter++;
     console.log('I am doing some work');
   }
 }

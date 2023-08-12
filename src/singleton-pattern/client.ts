@@ -6,6 +6,9 @@ const main = () => {
 
   const instance2 = SingletonClass.getInstance();
   instance2.doSomeWork();
+
+  const instance3 = SingletonClass.getInstance();
+  instance3.doSomeWork();
 };
 
 main();
