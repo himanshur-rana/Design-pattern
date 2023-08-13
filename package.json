@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npx tsc",
-    "start": "node dist/singleton-pattern/client.js"
+    "start": "node dist/adapter-pattern/demo.js"
   },
   "repository": {
     "type": "git",
