@@ -60,3 +60,5 @@ export class UrlBuilder {
     return new Url(this);
   }
 }
+
+export type { Url };
